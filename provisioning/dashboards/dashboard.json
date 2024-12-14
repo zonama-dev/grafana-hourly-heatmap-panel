@@ -1,0 +1,68 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Hourly Results",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "db84e60d-b92a-4089-82cb-34842fb1754b"
+          },
+          "refId": "A",
+          "scenarioId": "raw_frame",
+          "rawFrameContent": "[\n  {\n    \"columns\": [\n      {\n        \"text\": \"day\",\n        \"type\": \"number\"\n      },\n      {\n        \"text\": \"hour\",\n        \"type\": \"number\"\n      },\n      {\n        \"text\": \"value\",\n        \"type\": \"number\"\n      }\n    ],\n    \"rows\": [\n      [\n        0,\n        0,\n        16.8\n      ],\n      [\n        0,\n        1,\n        14.9\n      ],\n      [\n        0,\n        2,\n        0.5\n      ],\n      [\n        0,\n        3,\n        12.2\n      ],\n      [\n        0,\n        4,\n        66.6\n      ],\n      [\n        0,\n        5,\n        16.8\n      ],\n      [\n        0,\n        6,\n        50\n      ],\n      [\n        0,\n        7,\n        75.1\n      ],\n      [\n        0,\n        8,\n        97.1\n      ],\n      [\n        0,\n        9,\n        88.6\n      ],\n      [\n        0,\n        10,\n        31.1\n      ],\n      [\n        0,\n        11,\n        96.3\n      ],\n      [\n        0,\n        12,\n        98.2\n      ],\n      [\n        0,\n        13,\n        49.8\n      ],\n      [\n        0,\n        14,\n        36.9\n      ],\n      [\n        0,\n        15,\n        35.5\n      ],\n      [\n        0,\n        16,\n        23.1\n      ],\n      [\n        0,\n        17,\n        95.4\n      ],\n      [\n        0,\n        18,\n        3.9\n      ],\n      [\n        0,\n        19,\n        85.9\n      ],\n      [\n        0,\n        20,\n        33.6\n      ],\n      [\n        0,\n        21,\n        7.8\n      ],\n      [\n        0,\n        22,\n        74.1\n      ],\n      [\n        0,\n        23,\n        36\n      ],\n      [\n        1,\n        0,\n        67\n      ],\n      [\n        1,\n        1,\n        12\n      ],\n      [\n        1,\n        2,\n        11.9\n      ],\n      [\n        1,\n        3,\n        53.7\n      ],\n      [\n        1,\n        4,\n        69.5\n      ],\n      [\n        1,\n        5,\n        22.2\n      ],\n      [\n        1,\n        6,\n        80.6\n      ],\n      [\n        1,\n        7,\n        5\n      ],\n      [\n        1,\n        8,\n        34.4\n      ],\n      [\n        1,\n        9,\n        90.9\n      ],\n      [\n        1,\n        10,\n        55.8\n      ],\n      [\n        1,\n        11,\n        72.6\n      ],\n      [\n        1,\n        12,\n        65.4\n      ],\n      [\n        1,\n        13,\n        89\n      ],\n      [\n        1,\n        14,\n        1.7\n      ],\n      [\n        1,\n        15,\n        5.8\n      ],\n      [\n        1,\n        16,\n        8.1\n      ],\n      [\n        1,\n        17,\n        31\n      ],\n      [\n        1,\n        18,\n        52.5\n      ],\n      [\n        1,\n        19,\n        86.5\n      ],\n      [\n        1,\n        20,\n        90\n      ],\n      [\n        1,\n        21,\n        52\n      ],\n      [\n        1,\n        22,\n        59.8\n      ],\n      [\n        1,\n        23,\n        78.5\n      ],\n      [\n        2,\n        0,\n        33.2\n      ],\n      [\n        2,\n        1,\n        88\n      ],\n      [\n        2,\n        2,\n        27.8\n      ],\n      [\n        2,\n        3,\n        54.3\n      ],\n      [\n        2,\n        4,\n        91.7\n      ],\n      [\n        2,\n        5,\n        51\n      ],\n      [\n        2,\n        6,\n        78.7\n      ],\n      [\n        2,\n        7,\n        78.9\n      ],\n      [\n        2,\n        8,\n        94.9\n      ],\n      [\n        2,\n        9,\n        42.9\n      ],\n      [\n        2,\n        10,\n        55.7\n      ],\n      [\n        2,\n        11,\n        95.2\n      ],\n      [\n        2,\n        12,\n        81.5\n      ],\n      [\n        2,\n        13,\n        64.4\n      ],\n      [\n        2,\n        14,\n        23.5\n      ],\n      [\n        2,\n        15,\n        12.6\n      ],\n      [\n        2,\n        16,\n        54.1\n      ],\n      [\n        2,\n        17,\n        60.9\n      ],\n      [\n        2,\n        18,\n        77.4\n      ],\n      [\n        2,\n        19,\n        88.1\n      ],\n      [\n        2,\n        20,\n        50.8\n      ],\n      [\n        2,\n        21,\n        8.9\n      ],\n      [\n        2,\n        22,\n        95.1\n      ],\n      [\n        2,\n        23,\n        53.4\n      ],\n      [\n        3,\n        0,\n        35.2\n      ],\n      [\n        3,\n        1,\n        75.3\n      ],\n      [\n        3,\n        2,\n        86.2\n      ],\n      [\n        3,\n        3,\n        82.1\n      ],\n      [\n        3,\n        4,\n        99.5\n      ],\n      [\n        3,\n        5,\n        72.7\n      ],\n      [\n        3,\n        6,\n        62.1\n      ],\n      [\n        3,\n        7,\n        7\n      ],\n      [\n        3,\n        8,\n        62.1\n      ],\n      [\n        3,\n        9,\n        97.7\n      ],\n      [\n        3,\n        10,\n        38.9\n      ],\n      [\n        3,\n        11,\n        87.5\n      ],\n      [\n        3,\n        12,\n        89.2\n      ],\n      [\n        3,\n        13,\n        35.7\n      ],\n      [\n        3,\n        14,\n        37\n      ],\n      [\n        3,\n        15,\n        73.4\n      ],\n      [\n        3,\n        16,\n        43.6\n      ],\n      [\n        3,\n        17,\n        52.3\n      ],\n      [\n        3,\n        18,\n        43.9\n      ],\n      [\n        3,\n        19,\n        20.7\n      ],\n      [\n        3,\n        20,\n        13.2\n      ],\n      [\n        3,\n        21,\n        8\n      ],\n      [\n        3,\n        22,\n        20.6\n      ],\n      [\n        3,\n        23,\n        89.3\n      ],\n      [\n        4,\n        0,\n        39.5\n      ],\n      [\n        4,\n        1,\n        72.4\n      ],\n      [\n        4,\n        2,\n        20.6\n      ],\n      [\n        4,\n        3,\n        48.6\n      ],\n      [\n        4,\n        4,\n        19.8\n      ],\n      [\n        4,\n        5,\n        32.6\n      ],\n      [\n        4,\n        6,\n        29\n      ],\n      [\n        4,\n        7,\n        14.4\n      ],\n      [\n        4,\n        8,\n        57\n      ],\n      [\n        4,\n        9,\n        78.7\n      ],\n      [\n        4,\n        10,\n        61.8\n      ],\n      [\n        4,\n        11,\n        30.6\n      ],\n      [\n        4,\n        12,\n        52\n      ],\n      [\n        4,\n        13,\n        28.5\n      ],\n      [\n        4,\n        14,\n        54.2\n      ],\n      [\n        4,\n        15,\n        30.5\n      ],\n      [\n        4,\n        16,\n        19.6\n      ],\n      [\n        4,\n        17,\n        14.8\n      ],\n      [\n        4,\n        18,\n        18\n      ],\n      [\n        4,\n        19,\n        16.6\n      ],\n      [\n        4,\n        20,\n        31.5\n      ],\n      [\n        4,\n        21,\n        80.2\n      ],\n      [\n        4,\n        22,\n        69.8\n      ],\n      [\n        4,\n        23,\n        11.7\n      ],\n      [\n        5,\n        0,\n        75.6\n      ],\n      [\n        5,\n        1,\n        96.3\n      ],\n      [\n        5,\n        2,\n        43.7\n      ],\n      [\n        5,\n        3,\n        38.5\n      ],\n      [\n        5,\n        4,\n        69.4\n      ],\n      [\n        5,\n        5,\n        19.8\n      ],\n      [\n        5,\n        6,\n        55.5\n      ],\n      [\n        5,\n        7,\n        71.1\n      ],\n      [\n        5,\n        8,\n        19.5\n      ],\n      [\n        5,\n        9,\n        66.3\n      ],\n      [\n        5,\n        10,\n        11.7\n      ],\n      [\n        5,\n        11,\n        90.1\n      ],\n      [\n        5,\n        12,\n        33.1\n      ],\n      [\n        5,\n        13,\n        61.9\n      ],\n      [\n        5,\n        14,\n        1.1\n      ],\n      [\n        5,\n        15,\n        13.4\n      ],\n      [\n        5,\n        16,\n        3.5\n      ],\n      [\n        5,\n        17,\n        75.2\n      ],\n      [\n        5,\n        18,\n        22.9\n      ],\n      [\n        5,\n        19,\n        13.8\n      ],\n      [\n        5,\n        20,\n        26.3\n      ],\n      [\n        5,\n        21,\n        55.4\n      ],\n      [\n        5,\n        22,\n        20.2\n      ],\n      [\n        5,\n        23,\n        83.4\n      ],\n      [\n        6,\n        0,\n        78.3\n      ],\n      [\n        6,\n        1,\n        30.3\n      ],\n      [\n        6,\n        2,\n        22\n      ],\n      [\n        6,\n        3,\n        56.5\n      ],\n      [\n        6,\n        4,\n        16\n      ],\n      [\n        6,\n        5,\n        6.9\n      ],\n      [\n        6,\n        6,\n        78.1\n      ],\n      [\n        6,\n        7,\n        51.8\n      ],\n      [\n        6,\n        8,\n        10.2\n      ],\n      [\n        6,\n        9,\n        26.8\n      ],\n      [\n        6,\n        10,\n        83\n      ],\n      [\n        6,\n        11,\n        71.1\n      ],\n      [\n        6,\n        12,\n        46.4\n      ],\n      [\n        6,\n        13,\n        9.1\n      ],\n      [\n        6,\n        14,\n        43.5\n      ],\n      [\n        6,\n        15,\n        22.2\n      ],\n      [\n        6,\n        16,\n        39.4\n      ],\n      [\n        6,\n        17,\n        88.5\n      ],\n      [\n        6,\n        18,\n        59.6\n      ],\n      [\n        6,\n        19,\n        27.9\n      ],\n      [\n        6,\n        20,\n        82.5\n      ],\n      [\n        6,\n        21,\n        2.1\n      ],\n      [\n        6,\n        22,\n        49.7\n      ],\n      [\n        6,\n        23,\n        71.2\n      ]\n    ]\n  }\n]"
+        }
+      ],
+      "title": "Sample Panel Title",
+      "type": "zonama-hourlyheatmap-panel"
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 39,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Provisioned Hourly Heatmap dashboard",
+  "uid": "a538aeff-5a8a-42a5-901c-938d896fdd6f",
+  "version": 1,
+  "weekStart": ""
+}
