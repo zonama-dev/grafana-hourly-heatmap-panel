@@ -12,7 +12,9 @@
     "prettier": "prettier --write src",
     "e2e": "playwright test",
     "server": "docker compose up --build",
-    "sign": "yarn dlx --yes @grafana/sign-plugin@latest"
+    "sign": "yarn dlx --yes @grafana/sign-plugin@latest",
+    "version": "yarn version",
+    "release": "yarn exec scripts/release.sh"
   },
   "author": "Zonama",
   "license": "Apache-2.0",
