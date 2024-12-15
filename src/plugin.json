@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "Hourly Heatmap",
-  "id": "zonama-hourlyheatmap-panel",
+  "name": "Hourly 24/7 Heatmap",
+  "id": "hourly-247-panel",
   "info": {
     "keywords": ["panel"],
     "description": "",

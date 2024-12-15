@@ -46,7 +46,7 @@
         }
       ],
       "title": "Sample Panel Title",
-      "type": "zonama-hourlyheatmap-panel"
+      "type": "hourly-247-panel"
     }
   ],
   "refresh": "",
