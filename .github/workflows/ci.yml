@@ -32,7 +32,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --immutable --prefer-offline
+        run: yarn install --immutable
 
       - name: Check types
         run: yarn run typecheck
@@ -173,7 +173,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dev dependencies
-        run: yarn install --immutable --prefer-offline
+        run: yarn install --immutable
 
       - name: Start Grafana
         run: |
