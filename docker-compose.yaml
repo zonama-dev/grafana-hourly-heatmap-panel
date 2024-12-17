@@ -1,7 +1,7 @@
 services:
   grafana:
     user: root
-    container_name: 'hourly-247-panel'
+    container_name: 'zonama-hourly247heatmap-panel'
 
     build:
       context: ./.config
@@ -12,13 +12,13 @@ services:
     ports:
       - 3000:3000/tcp
     volumes:
-      - ./dist:/var/lib/grafana/plugins/hourly-247-panel
+      - ./dist:/var/lib/grafana/plugins/zonama-hourly247heatmap-panel
       - ./provisioning:/etc/grafana/provisioning
-      - .:/root/hourly-247-panel
+      - .:/root/zonama-hourly247heatmap-panel
 
     environment:
       NODE_ENV: development
-      GF_LOG_FILTERS: plugin.hourly-247-panel:debug
+      GF_LOG_FILTERS: plugin.zonama-hourly247heatmap-panel:debug
       GF_LOG_LEVEL: debug
       GF_DATAPROXY_LOGGING: 1
-      GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: hourly-247-panel
+      GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: zonama-hourly247heatmap-panel

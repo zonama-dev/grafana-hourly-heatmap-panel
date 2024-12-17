@@ -191,7 +191,7 @@ jobs:
       - name: Docker logs
         if: ${{ always() && steps.run-tests.outcome == 'failure' }}
         run: |
-          docker logs hourly-247-panel >& grafana-server.log
+          docker logs zonama-hourly247heatmap-panel >& grafana-server.log
 
       - name: Stop grafana docker
         run: docker compose down
